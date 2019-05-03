@@ -1,0 +1,67 @@
+{extend name='base'/}
+{block name='content'}
+
+
+<!--<h1 class="h4 text-gray-900 mb-4">文章标题</h1>-->
+
+<div class="col-lg-5">
+    <form class="user" action="/admin/writer/addarticle" method="post">
+      <div class="form-group">
+        <input type="text" class="form-control bg-light border-1" id="exampleInputtitle" name="title"  placeholder="输入文章标题...">
+      </div>
+      <div class="form-group">
+        <input type="text" class="form-control bg-light border-1" id="exampleInputtags" name="tags" placeholder="输入文章标签">
+      </div>
+    </div>
+
+    <div class="col-lg-7">
+        <div class="form-group">
+            <textarea class="form-control bg-light border-1" name="digest" style="width: 500px; height: 90px;">文章摘要...</textarea>
+        </div>
+    </div>
+
+ 
+<!--editor.md 编辑器-->
+<link rel="stylesheet" href="/static/editor/css/editormd.min.css" />
+    <div id="editor-doc">
+<textarea id="editor-doc-md" name="editor-doc-md" style="display:none;">
+#### balabala...</textarea>
+<!--<textarea id="editor-doc-html" name="editor-md-html" style="display:none;"></textarea>-->
+    </div>
+
+<script src="/static/editor/js/jquery.min.js"></script>
+<script src="/static/editor/editormd.min.js"></script>
+
+    <script type="text/javascript">
+			var testEditor;
+            $(function() {
+                testEditor = editormd("editor-doc", {
+                    width   : "97%",
+                    height  : 640,
+                    syncScrolling : "single",
+                    path    : "/static/editor/lib/",
+                    saveHTMLToTextarea : true,
+                    emoji: true,
+                    tex: true, // 开启科学公式TeX语言支持，默认关闭
+                    flowChart: true, // 开启流程图支持，默认关闭
+                });
+                
+                /*
+                // or
+                testEditor = editormd({
+                    id      : "test-editormd",
+                    width   : "90%",
+                    height  : 640,
+                    path    : "../lib/"
+                });
+                */
+            });
+     </script>
+<!--editor.md 编辑器 end -->
+
+<div class="col-lg-3">
+<button class="btn btn-primary btn-user btn-block" type="submit" name="submit" value="submit">提交</button>
+</form>
+</div>
+
+{/block}

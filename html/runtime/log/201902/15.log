@@ -1,0 +1,1512 @@
+---------------------------------------------------------------
+[2019-02-15T00:00:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/editor/css/style.css
+[运行时间：0.002863s] [吞吐率：349.29req/s] [内存消耗：244.66kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:00:03+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/view?art=1
+[运行时间：0.012171s] [吞吐率：82.16req/s] [内存消耗：642.61kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'art' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/article.html [ array (
+  0 => 'art',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000778s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002286s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.002182s ]
+[ sql ] [ SQL ] UPDATE `article`  SET `click` = 1  WHERE  `id` = 1 [ RunTime:0.001279s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000530s ]
+---------------------------------------------------------------
+[2019-02-15T00:00:04+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/editor/css/style.css
+[运行时间：0.008091s] [吞吐率：123.59req/s] [内存消耗：244.66kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:00:06+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/view?art=2
+[运行时间：0.015189s] [吞吐率：65.84req/s] [内存消耗：641.57kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'art' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/article.html [ array (
+  0 => 'art',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000956s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.004409s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000714s ]
+[ sql ] [ SQL ] UPDATE `article`  SET `click` = 2  WHERE  `id` = 2 [ RunTime:0.002262s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000607s ]
+---------------------------------------------------------------
+[2019-02-15T00:00:07+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/editor/css/style.css
+[运行时间：0.003898s] [吞吐率：256.55req/s] [内存消耗：244.66kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:00:11+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/view?art=2
+[运行时间：0.010977s] [吞吐率：91.10req/s] [内存消耗：641.57kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'art' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/article.html [ array (
+  0 => 'art',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000970s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003907s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000677s ]
+[ sql ] [ SQL ] UPDATE `article`  SET `click` = 3  WHERE  `id` = 2 [ RunTime:0.001625s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000695s ]
+---------------------------------------------------------------
+[2019-02-15T00:00:11+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/editor/css/style.css
+[运行时间：0.003536s] [吞吐率：282.79req/s] [内存消耗：244.66kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:00:34+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.014294s] [吞吐率：69.96req/s] [内存消耗：640.01kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001375s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003194s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.002562s ]
+---------------------------------------------------------------
+[2019-02-15T00:01:19+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/view?art=1
+[运行时间：0.016470s] [吞吐率：60.72req/s] [内存消耗：742.74kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'art' => '1',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/article.html [ array (
+  0 => 'art',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000743s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003254s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 1 LIMIT 1 [ RunTime:0.001345s ]
+[ sql ] [ SQL ] UPDATE `article`  SET `click` = 2  WHERE  `id` = 1 [ RunTime:0.003767s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000749s ]
+---------------------------------------------------------------
+[2019-02-15T00:01:20+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/editor/css/style.css
+[运行时间：0.002293s] [吞吐率：436.13req/s] [内存消耗：244.66kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:01:22+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.009482s] [吞吐率：105.46req/s] [内存消耗：638.88kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001195s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002527s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.001801s ]
+---------------------------------------------------------------
+[2019-02-15T00:01:25+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/view?art=2
+[运行时间：0.021011s] [吞吐率：47.59req/s] [内存消耗：642.70kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'art' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/article.html [ array (
+  0 => 'art',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003813s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002818s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001156s ]
+[ sql ] [ SQL ] UPDATE `article`  SET `click` = 4  WHERE  `id` = 2 [ RunTime:0.001466s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.001596s ]
+---------------------------------------------------------------
+[2019-02-15T00:01:25+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/editor/css/style.css
+[运行时间：0.005310s] [吞吐率：188.32req/s] [内存消耗：244.66kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:01:27+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/view?art=2
+[运行时间：0.011098s] [吞吐率：90.11req/s] [内存消耗：641.57kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'art' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/article.html [ array (
+  0 => 'art',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000965s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002952s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000814s ]
+[ sql ] [ SQL ] UPDATE `article`  SET `click` = 5  WHERE  `id` = 2 [ RunTime:0.001590s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000671s ]
+---------------------------------------------------------------
+[2019-02-15T00:01:28+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/editor/css/style.css
+[运行时间：0.002649s] [吞吐率：377.49req/s] [内存消耗：244.66kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:01:30+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/view?art=2
+[运行时间：0.014325s] [吞吐率：69.81req/s] [内存消耗：641.57kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'art' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/article.html [ array (
+  0 => 'art',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001113s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.004410s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.000798s ]
+[ sql ] [ SQL ] UPDATE `article`  SET `click` = 6  WHERE  `id` = 2 [ RunTime:0.001484s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000640s ]
+---------------------------------------------------------------
+[2019-02-15T00:01:30+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/editor/css/style.css
+[运行时间：0.004663s] [吞吐率：214.45req/s] [内存消耗：244.66kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:01:34+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.011172s] [吞吐率：89.51req/s] [内存消耗：638.88kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001168s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.004000s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000715s ]
+---------------------------------------------------------------
+[2019-02-15T00:06:53+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/
+[运行时间：0.014604s] [吞吐率：68.47req/s] [内存消耗：660.33kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/index/index.html [ array (
+  0 => 'content_title',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000685s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003730s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000682s ]
+---------------------------------------------------------------
+[2019-02-15T00:06:54+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/styles/simditor.css
+[运行时间：0.004880s] [吞吐率：204.92req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:06:54+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/jquery.min.js
+[运行时间：0.003513s] [吞吐率：284.65req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:06:54+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.005573s] [吞吐率：179.44req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:06:54+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.001672s] [吞吐率：598.08req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:06:54+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.006236s] [吞吐率：160.36req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:06:54+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.004665s] [吞吐率：214.36req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:06:54+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.001376s] [吞吐率：726.79req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:06:54+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.001279s] [吞吐率：781.79req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:07:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/writer
+[运行时间：0.005608s] [吞吐率：178.32req/s] [内存消耗：363.09kb] [文件加载：63]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/writer/index.html [ array (
+  0 => 'content_title',
+) ]
+---------------------------------------------------------------
+[2019-02-15T00:07:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/styles/simditor.css
+[运行时间：0.002963s] [吞吐率：337.49req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:07:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/jquery.min.js
+[运行时间：0.004119s] [吞吐率：242.78req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:07:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.001913s] [吞吐率：522.72req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:07:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.004060s] [吞吐率：246.30req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:07:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.002154s] [吞吐率：464.28req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:07:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.003112s] [吞吐率：321.33req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:07:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.001701s] [吞吐率：587.93req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:07:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.001435s] [吞吐率：696.84req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:07:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.002856s] [吞吐率：350.14req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:07:00+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.001556s] [吞吐率：642.61req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:15:07+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.012455s] [吞吐率：80.29req/s] [内存消耗：677.54kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001152s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002072s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000878s ]
+---------------------------------------------------------------
+[2019-02-15T00:21:06+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.012521s] [吞吐率：79.87req/s] [内存消耗：678.13kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000803s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002327s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.001890s ]
+---------------------------------------------------------------
+[2019-02-15T00:22:05+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.009130s] [吞吐率：109.53req/s] [内存消耗：673.63kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001155s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002277s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000916s ]
+---------------------------------------------------------------
+[2019-02-15T00:23:38+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.009575s] [吞吐率：104.44req/s] [内存消耗：669.63kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000857s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.001988s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.001030s ]
+---------------------------------------------------------------
+[2019-02-15T00:24:18+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.011809s] [吞吐率：84.68req/s] [内存消耗：669.63kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000933s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005020s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000839s ]
+---------------------------------------------------------------
+[2019-02-15T00:26:46+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.015766s] [吞吐率：63.43req/s] [内存消耗：669.63kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001247s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003906s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000961s ]
+---------------------------------------------------------------
+[2019-02-15T00:31:08+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.012518s] [吞吐率：79.89req/s] [内存消耗：642.02kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000623s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002676s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000799s ]
+---------------------------------------------------------------
+[2019-02-15T00:32:03+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.006544s] [吞吐率：152.81req/s] [内存消耗：640.89kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+  'cache-control' => 'max-age=0',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000758s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002309s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000741s ]
+---------------------------------------------------------------
+[2019-02-15T00:36:07+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/
+[运行时间：0.013637s] [吞吐率：73.33req/s] [内存消耗：662.34kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/index/index.html [ array (
+  0 => 'content_title',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001062s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.002741s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000929s ]
+---------------------------------------------------------------
+[2019-02-15T00:36:08+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/styles/simditor.css
+[运行时间：0.005458s] [吞吐率：183.22req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:08+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/jquery.min.js
+[运行时间：0.004637s] [吞吐率：215.66req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:08+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.002954s] [吞吐率：338.52req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:08+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.002895s] [吞吐率：345.41req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:08+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.005130s] [吞吐率：194.94req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:08+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.006456s] [吞吐率：154.89req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:31+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin
+[运行时间：0.011160s] [吞吐率：89.61req/s] [内存消耗：661.72kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/index/index.html [ array (
+  0 => 'content_title',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001192s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005321s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.001147s ]
+---------------------------------------------------------------
+[2019-02-15T00:36:32+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/styles/simditor.css
+[运行时间：0.004238s] [吞吐率：235.97req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:32+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/jquery.min.js
+[运行时间：0.004849s] [吞吐率：206.23req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:32+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.002514s] [吞吐率：397.75req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:32+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.002203s] [吞吐率：453.93req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:32+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.004253s] [吞吐率：235.12req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:32+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.002468s] [吞吐率：405.17req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:35+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/writer/list
+[运行时间：0.010746s] [吞吐率：93.06req/s] [内存消耗：662.95kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/writer/list.html [ array (
+  0 => 'content_title',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000908s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003838s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000817s ]
+---------------------------------------------------------------
+[2019-02-15T00:36:35+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/styles/simditor.css
+[运行时间：0.002612s] [吞吐率：382.87req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:35+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/jquery.min.js
+[运行时间：0.002217s] [吞吐率：451.05req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:35+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.002695s] [吞吐率：371.08req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:35+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.002433s] [吞吐率：411.05req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:35+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.002273s] [吞吐率：439.98req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:35+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.002990s] [吞吐率：334.45req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/writer
+[运行时间：0.007961s] [吞吐率：125.61req/s] [内存消耗：410.64kb] [文件加载：65]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin/writer/list',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/writer/index.html [ array (
+  0 => 'content_title',
+) ]
+---------------------------------------------------------------
+[2019-02-15T00:36:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/styles/simditor.css
+[运行时间：0.009095s] [吞吐率：109.95req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/jquery.min.js
+[运行时间：0.005617s] [吞吐率：178.03req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.015290s] [吞吐率：65.40req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.012332s] [吞吐率：81.09req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.002279s] [吞吐率：438.83req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.007730s] [吞吐率：129.37req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T00:36:48+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/login
+[运行时间：0.002927s] [吞吐率：341.64req/s] [内存消耗：358.75kb] [文件加载：61]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin/writer',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/login/index.html [ array (
+  0 => 'msg',
+) ]
+---------------------------------------------------------------
+[2019-02-15T00:36:49+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/writer
+[运行时间：0.004827s] [吞吐率：207.17req/s] [内存消耗：363.54kb] [文件加载：63]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin/writer/list',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=92olptl4b7s0gqcm48dtdtuncu',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/writer/index.html [ array (
+  0 => 'content_title',
+) ]
+---------------------------------------------------------------
+[2019-02-15T15:17:18+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.115529s] [吞吐率：8.66req/s] [内存消耗：974.63kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001987s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005820s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000927s ]
+---------------------------------------------------------------
+[2019-02-15T15:17:33+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/
+[运行时间：0.011861s] [吞吐率：84.31req/s] [内存消耗：370.30kb] [文件加载：65]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-02-15T15:17:33+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/login/
+[运行时间：0.006831s] [吞吐率：146.39req/s] [内存消耗：359.08kb] [文件加载：61]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=rp6pon40d9l7krgd4jv8ogd4fn',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/login/index.html [ array (
+  0 => 'msg',
+) ]
+---------------------------------------------------------------
+[2019-02-15T15:17:37+08:00] 127.0.0.1 POST 127.0.0.1:8000/admin/login/
+[运行时间：0.009529s] [吞吐率：104.94req/s] [内存消耗：641.99kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin/login/',
+  'content-type' => 'application/x-www-form-urlencoded',
+  'content-length' => '52',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=rp6pon40d9l7krgd4jv8ogd4fn',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'email' => 'admin@admin.com',
+  'password' => 'admin',
+  'submit' => 'submit',
+)
+[ info ] [ DB ] INIT mysql
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000770s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `user` [ RunTime:0.004256s ]
+[ sql ] [ SQL ] SELECT * FROM `user` WHERE  `email` = 'admin@admin.com'  AND `passwd` = 'd033e22ae348aeb5660fc2140aec35850c4da997' LIMIT 1 [ RunTime:0.000840s ]
+---------------------------------------------------------------
+[2019-02-15T15:17:37+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin
+[运行时间：0.010164s] [吞吐率：98.39req/s] [内存消耗：662.85kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin/login/',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=rp6pon40d9l7krgd4jv8ogd4fn',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/index/index.html [ array (
+  0 => 'content_title',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000741s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003985s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000902s ]
+---------------------------------------------------------------
+[2019-02-15T15:17:37+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/styles/simditor.css
+[运行时间：0.009531s] [吞吐率：104.92req/s] [内存消耗：246.54kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:37+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/jquery.min.js
+[运行时间：0.004571s] [吞吐率：218.77req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:37+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.002718s] [吞吐率：367.89req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:37+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.003248s] [吞吐率：307.88req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:37+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.004080s] [吞吐率：245.09req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:37+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.003031s] [吞吐率：329.92req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/writer/list
+[运行时间：0.014038s] [吞吐率：71.23req/s] [内存消耗：663.06kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=rp6pon40d9l7krgd4jv8ogd4fn',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/writer/list.html [ array (
+  0 => 'content_title',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001997s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003312s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.001049s ]
+---------------------------------------------------------------
+[2019-02-15T15:17:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/styles/simditor.css
+[运行时间：0.003917s] [吞吐率：255.30req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/jquery.min.js
+[运行时间：0.004322s] [吞吐率：231.37req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.003628s] [吞吐率：275.63req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.005322s] [吞吐率：187.90req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.003949s] [吞吐率：253.23req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:40+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.003258s] [吞吐率：306.94req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:41+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.001508s] [吞吐率：663.13req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:41+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.003055s] [吞吐率：327.32req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:41+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.002779s] [吞吐率：359.84req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:41+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.001874s] [吞吐率：533.56req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:42+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/writer
+[运行时间：0.004810s] [吞吐率：207.90req/s] [内存消耗：363.54kb] [文件加载：63]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin/writer/list',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=rp6pon40d9l7krgd4jv8ogd4fn',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/writer/index.html [ array (
+  0 => 'content_title',
+) ]
+---------------------------------------------------------------
+[2019-02-15T15:17:43+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/styles/simditor.css
+[运行时间：0.006652s] [吞吐率：150.33req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:43+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/jquery.min.js
+[运行时间：0.004863s] [吞吐率：205.63req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:43+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.003822s] [吞吐率：261.64req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:43+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.003108s] [吞吐率：321.75req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:43+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.003163s] [吞吐率：316.15req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:43+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.010204s] [吞吐率：98.00req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:49+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/writer/list
+[运行时间：0.011374s] [吞吐率：87.92req/s] [内存消耗：661.84kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin/writer',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=rp6pon40d9l7krgd4jv8ogd4fn',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/writer/list.html [ array (
+  0 => 'content_title',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.002465s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003493s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.001285s ]
+---------------------------------------------------------------
+[2019-02-15T15:17:49+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/styles/simditor.css
+[运行时间：0.002669s] [吞吐率：374.66req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:49+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/jquery.min.js
+[运行时间：0.004983s] [吞吐率：200.68req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:49+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/module.js
+[运行时间：0.003117s] [吞吐率：320.84req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:49+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/hotkeys.js
+[运行时间：0.004927s] [吞吐率：202.97req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:49+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/uploader.js
+[运行时间：0.002694s] [吞吐率：371.18req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:49+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.002772s] [吞吐率：360.74req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:49+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/simditor/assets/scripts/simditor.js
+[运行时间：0.002454s] [吞吐率：407.53req/s] [内存消耗：245.07kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:17:58+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/login/logout
+[运行时间：0.003830s] [吞吐率：261.10req/s] [内存消耗：463.92kb] [文件加载：70]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin/writer/list',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=rp6pon40d9l7krgd4jv8ogd4fn',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-02-15T15:17:58+08:00] 127.0.0.1 GET 127.0.0.1:8000/admin/login
+[运行时间：0.002641s] [吞吐率：378.65req/s] [内存消耗：358.75kb] [文件加载：61]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/admin/writer/list',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=rp6pon40d9l7krgd4jv8ogd4fn',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/admin/view/login/index.html [ array (
+  0 => 'msg',
+) ]
+---------------------------------------------------------------
+[2019-02-15T15:18:02+08:00] 127.0.0.1 GET 127.0.0.1:8000/is
+[运行时间：0.004231s] [吞吐率：236.35req/s] [内存消耗：241.87kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T15:18:05+08:00] 127.0.0.1 GET 127.0.0.1:8000/install/
+[运行时间：0.015640s] [吞吐率：63.94req/s] [内存消耗：365.19kb] [文件加载：63]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=rp6pon40d9l7krgd4jv8ogd4fn',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/install/view/index/index.html [ array (
+) ]
+---------------------------------------------------------------
+[2019-02-15T15:18:12+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.010602s] [吞吐率：94.32req/s] [内存消耗：640.50kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'cookie' => 'PHPSESSID=rp6pon40d9l7krgd4jv8ogd4fn',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001055s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003067s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.001938s ]
+---------------------------------------------------------------
+[2019-02-15T18:49:20+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.145860s] [吞吐率：6.86req/s] [内存消耗：974.63kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003625s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.022635s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.002032s ]
+---------------------------------------------------------------
+[2019-02-15T18:49:36+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/index
+[运行时间：0.008381s] [吞吐率：119.32req/s] [内存消耗：640.30kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000827s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003150s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.001049s ]
+---------------------------------------------------------------
+[2019-02-15T18:49:42+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/index/k
+[运行时间：0.013401s] [吞吐率：74.62req/s] [内存消耗：640.30kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000938s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.004222s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.001499s ]
+---------------------------------------------------------------
+[2019-02-15T18:49:45+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/indek
+[运行时间：0.012163s] [吞吐率：82.22req/s] [内存消耗：345.93kb] [文件加载：64]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+---------------------------------------------------------------
+[2019-02-15T18:49:49+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/index
+[运行时间：0.010821s] [吞吐率：92.41req/s] [内存消耗：640.30kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.001001s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.005081s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000878s ]
+---------------------------------------------------------------
+[2019-02-15T18:53:47+08:00] 127.0.0.1 GET 127.0.0.1:8000/index.php/index/index
+[运行时间：0.004884s] [吞吐率：204.75req/s] [内存消耗：241.88kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+---------------------------------------------------------------
+[2019-02-15T18:53:53+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/index
+[运行时间：0.011419s] [吞吐率：87.57req/s] [内存消耗：640.30kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000887s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003104s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000729s ]
+---------------------------------------------------------------
+[2019-02-15T23:09:44+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/index.html
+[运行时间：0.060257s] [吞吐率：16.60req/s] [内存消耗：643.48kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/index/index/index',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.003716s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.013625s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.002000s ]
+---------------------------------------------------------------
+[2019-02-15T23:09:46+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/index.html
+[运行时间：0.009045s] [吞吐率：110.56req/s] [内存消耗：643.49kb] [文件加载：73]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/index/index/index.html',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/index.html [ array (
+  0 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000829s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.003524s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.000802s ]
+---------------------------------------------------------------
+[2019-02-15T23:09:51+08:00] 127.0.0.1 GET 127.0.0.1:8000/index/index/view?art=2
+[运行时间：0.048428s] [吞吐率：20.65req/s] [内存消耗：744.96kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'referer' => 'http://127.0.0.1:8000/index/index/index.html',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+  'art' => '2',
+)
+[ info ] [ DB ] INIT mysql
+[ info ] [ VIEW ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/application/index/view/index/article.html [ array (
+  0 => 'art',
+  1 => 'art_list',
+) ]
+[ sql ] [ DB ] CONNECT:[ UseTime:0.000683s ] mysql:host=127.0.0.1;port=3306;dbname=SP_Blog;charset=utf8
+[ sql ] [ SQL ] SHOW COLUMNS FROM `article` [ RunTime:0.007679s ]
+[ sql ] [ SQL ] SELECT * FROM `article` WHERE  `id` = 2 LIMIT 1 [ RunTime:0.001374s ]
+[ sql ] [ SQL ] UPDATE `article`  SET `click` = 7  WHERE  `id` = 2 [ RunTime:0.008855s ]
+[ sql ] [ SQL ] SELECT * FROM `article` ORDER BY `id` DESC [ RunTime:0.001662s ]
+---------------------------------------------------------------
+[2019-02-15T23:09:51+08:00] 127.0.0.1 GET 127.0.0.1:8000/static/editor/css/style.css
+[运行时间：0.007836s] [吞吐率：127.62req/s] [内存消耗：244.66kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/Downloads/ThinkPHP/thinkphp-blog/tp/thinkphp/lang/zh-cn.php

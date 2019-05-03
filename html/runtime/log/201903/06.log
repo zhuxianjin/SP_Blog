@@ -1,0 +1,23 @@
+---------------------------------------------------------------
+[2019-03-06T21:57:30+08:00] 127.0.0.1 GET 127.0.0.1:8000/
+[运行时间：0.173758s] [吞吐率：5.76req/s] [内存消耗：886.78kb] [文件加载：75]
+[ info ] [ LANG ] /Users/xc/github/SP_Blog/html/thinkphp/lang/zh-cn.php
+[ info ] [ ROUTE ] array (
+)
+[ info ] [ HEADER ] array (
+  'host' => '127.0.0.1:8000',
+  'user-agent' => 'Mozilla/5.0 (Macintosh; Intel Mac OS X 10.13; rv:65.0) Gecko/20100101 Firefox/65.0',
+  'accept' => 'text/html,application/xhtml+xml,application/xml;q=0.9,image/webp,*/*;q=0.8',
+  'accept-language' => 'zh-CN,zh;q=0.8,zh-TW;q=0.7,zh-HK;q=0.5,en-US;q=0.3,en;q=0.2',
+  'accept-encoding' => 'gzip, deflate',
+  'connection' => 'keep-alive',
+  'upgrade-insecure-requests' => '1',
+)
+[ info ] [ PARAM ] array (
+)
+[ info ] [ DB ] INIT mysql
+[ error ] [2006]SQLSTATE[HY000] [2006] MySQL server has gone away[/Users/xc/github/SP_Blog/html/thinkphp/library/think/db/Connection.php:528]
+---------------------------------------------------------------
+[2019-03-06T21:57:30+08:00] 127.0.0.1 GET 127.0.0.1:8000/favicon.ico
+[运行时间：0.014727s] [吞吐率：67.90req/s] [内存消耗：245.38kb] [文件加载：51]
+[ info ] [ LANG ] /Users/xc/github/SP_Blog/html/thinkphp/lang/zh-cn.php

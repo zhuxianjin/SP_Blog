@@ -1,0 +1,63 @@
+{extend name='base'/}
+{block name='content'}
+
+<main class="col-md-8">
+        {volist name="art_list" id="art"}
+        <article class="post post-1">
+            <header class="entry-header">
+                <h2 class="entry-title">
+                    <a href="single.html">{$art.title}</a>
+                </h2>
+                <div class="entry-meta">
+                    <span class="post-category"><a href="#">标签：{$art.tags}</a></span>
+
+                    <span class="post-date"><a href="#"><time class="entry-date" datetime="2012-11-09T23:15:57+00:00">时间：{$art.posttime}</time></a></span>
+
+                    <span class="post-author"><a href="#">作者：{$art.author}</a></span>
+
+                    <span class="click-link"><a href="#">点击数：{$art.click}</a></span>
+                </div>
+            </header>
+            <div class="entry-content clearfix">
+                <p>{$art.digest}</p>
+                <div class="read-more cl-effect-14">
+                    <a href="/index/index/view?art={$art.id}" class="more-link">阅读更多<span class="meta-nav">→</span></a>
+                </div>
+            </div>
+        </article>
+
+        {/volist}
+
+    </main>
+
+<!--aside-->
+    <aside class="col-md-4 blog-aside">
+        
+        <div class="aside-widget">
+            <header>
+                <h3>最新文章</h3>
+            </header>
+            <div class="body">
+                <ul class="clean-list">
+                    {volist name="art_list" id="art"}
+                    <li><a href="">{$art.title}</a></li>
+                    {/volist}
+                </ul>
+            </div>
+        </div>
+
+        <div class="aside-widget">
+            <header>
+                <h3>文章标签</h3>
+            </header>
+            <div class="body clearfix">
+                <ul class="tags">
+                        {volist name="art_list" id="art"}
+                        <li><a href="">{$art.tags}</a></li>
+                        {/volist}
+                    </ul>
+            </div>
+        </div>
+    </aside>
+<!--aside end-->
+    {/block}
